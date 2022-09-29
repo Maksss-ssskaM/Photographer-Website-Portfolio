@@ -66,11 +66,117 @@ body {
   font-weight: 500;
 }
 
+.title-h2 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
 .btn-scroll {
   background-color: transparent;
   border: none;
   display: block;
   margin: 0 auto;
+}
+
+.section-about-me {
+  padding-top: 240px;
+  padding-bottom: 200px;
+}
+.section-about-me .title-h2 {
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.box-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+.box-about-item {
+  flex: 0 0 46%;
+  max-width: 46%;
+  position: relative;
+}
+.box-about-item:first-child {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.box-about__back {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: -108px;
+}
+.box-about__vertical {
+  position: absolute;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  bottom: 58px;
+  font-size: 16px;
+}
+.box-about__vertical::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 45px;
+  background-color: #22222b;
+  position: absolute;
+  right: 10px;
+  top: 90px;
+}
+.box-about__text {
+  color: #7f7f82;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+
+.progress-bar-text {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+.progress-bar-text:last-child {
+  margin-bottom: 0;
+}
+.progress-bar-line {
+  height: 2px;
+  width: 100%;
+  background-color: #22222b;
+  position: relative;
+}
+.progress-bar-line::before {
+  content: "";
+  background-image: url("../images/point.png");
+  display: block;
+  background-repeat: no-repeat;
+  width: 6px;
+  height: 11px;
+  position: absolute;
+  left: -1px;
+  top: calc(50% - 5.5px);
+}
+.progress-bar-line::after {
+  content: "";
+  right: 0;
+  background-color: #f2f2f2;
+  height: 2px;
+  display: block;
+  position: absolute;
+}
+.progress-bar__indesign::after {
+  width: 35%;
+}
+.progress-bar__xd::after {
+  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
