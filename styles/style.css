@@ -234,27 +234,27 @@ body {
   margin-bottom: 30px;
 }
 .service__design {
-  background-image: url("../images/icon1.png");
+  background-image: url("../images/services/icon1.png");
   background-size: 41px 35px;
 }
 .service__photo {
-  background-image: url("../images/icon2.png");
+  background-image: url("../images/services/icon2.png");
   background-size: 43px 35px;
 }
 .service__web {
-  background-image: url("../images/icon3.png");
+  background-image: url("../images/services/icon3.png");
   background-size: 41px 35px;
 }
 .service__media {
-  background-image: url("../images/icon4.png");
+  background-image: url("../images/services/icon4.png");
   background-size: 37px 37px;
 }
 .service__marketing {
-  background-image: url("../images/icon5.png");
+  background-image: url("../images/services/icon5.png");
   background-size: 44px 37px;
 }
 .service__app {
-  background-image: url("../images/icon6.png");
+  background-image: url("../images/services/icon6.png");
   background-size: 37px 37px;
 }
 .service__text {
@@ -406,6 +406,52 @@ body {
   font-style: italic;
   padding-left: 28px;
   line-height: 1.8;
+}
+
+.section-advantages {
+  padding-top: 122px;
+  padding-bottom: 100px;
+  background-color: #faf9fe;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.advantages__title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.advantages__title span {
+  font-size: 22px;
+  display: block;
+  font-weight: 500;
+}
+.advantages__icon {
+  background-color: #22222b;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 0 auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.advantages__icon-1 {
+  background-image: url("../images/advantages/icon7.png");
+  background-size: 26px 23px;
+}
+.advantages__icon-2 {
+  background-image: url("../images/advantages/icon8.png");
+  background-size: 26px 23px;
+}
+.advantages__icon-3 {
+  background-image: url("../images/advantages/icon9.png");
+  background-size: 26px 24px;
+}
+.advantages__icon-4 {
+  background-image: url("../images/advantages/icon10.png");
+  background-size: 19px 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
