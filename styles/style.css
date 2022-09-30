@@ -333,6 +333,31 @@ body {
   gap: 40px;
   margin-top: 83px;
 }
+.portfolio-item {
+  position: relative;
+}
+.portfolio-item__back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  inset: 20px 20px 20px 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #22222b;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  transition: opacity 0.7s;
+  position: absolute;
+}
+.portfolio-item__back span {
+  font-size: 15px;
+  line-height: 2.5;
+}
+.portfolio-item__back:hover {
+  opacity: 1;
+}
 .portfolio-photo1 {
   grid-area: 1/1/4/2;
 }
@@ -401,7 +426,7 @@ body {
   color: #22222b;
   background-color: white;
   padding: 12px 57px;
-  transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  transition: border-color 0.7s, background-color 0.7s, color 0.7s;
 }
 .section-banner .btn:hover {
   background-color: transparent;
