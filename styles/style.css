@@ -527,7 +527,6 @@ body {
 .section-form {
   padding-top: 122px;
   padding-bottom: 130px;
-  box-sizing: border-box;
 }
 
 .form {
@@ -639,12 +638,42 @@ footer {
   .portfolio {
     grid-template: repeat(7, 88px)/repeat(2, 1fr);
   }
+  .portfolio-photo3, .portfolio-photo6 {
+    display: none;
+  }
   .section-banner {
     padding-top: 70px;
     padding-bottom: 70px;
   }
   .section-banner .title-h2 {
     font-size: 40px;
+  }
+  .section-feedback {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .feedback-body {
+    font-size: 16px;
+  }
+  .feedback-top {
+    justify-content: center;
+    align-items: center;
+  }
+  .section-advantages {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .advantages {
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    gap: 40px 10px;
+  }
+  .section-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer {
+    font-size: 12px;
   }
 }
 
