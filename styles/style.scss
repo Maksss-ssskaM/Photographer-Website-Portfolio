@@ -266,11 +266,11 @@ body{
   margin-top: 65px;
   &-item{
     &:hover{
-      .service__link-text{
-        width: inherit;
-        color: $dark;
+      .service__link a{
         opacity: 1;
-        padding-right: 9px;
+        &::after{
+          width: 60%;
+        }
       }
     }
   }
@@ -313,27 +313,28 @@ body{
     font-size: 14px;
     line-height: 1.8;
   }
-  &__link{
+  &__link a{
+    display: inline-block;
     color: $dark;
     font-size: 14px;
+    line-height: 1;
     text-decoration: none;
+    cursor: pointer;
     position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 60px;
-    &-text{
-      opacity: 0;
-      width: 0;
-      padding-right: 0;
-      color: transparent;
-      transition: .4s ease-in-out;
-    }
-    &-line{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: .3s;
+    &::after{
+      background-color: $dark; /* Цвет линии при наведении на нее курсора мыши */
       display: block;
-      width: 25px;
-      height: 1px;
-      background-color: $dark;
+      content: "";
+      height: 2px; /* Высота линии */
+      width: 0;
+      transition: width .3s ease-in-out;
+      position: absolute;
+      top: 7px;
+      right: -50px;
     }
   }
 }
