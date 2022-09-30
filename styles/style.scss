@@ -68,6 +68,11 @@ body{
   }
 }
 
+.main-title{
+  position: relative;
+  margin-top: 100px;
+}
+
 .title-h1{
   font-size: 60px;
   text-align: center;
@@ -92,6 +97,37 @@ body{
 
 .after-title{
   font-size: 16px;
+}
+
+.lines{
+  position: absolute;
+  background: black;
+  &-1{
+    width: 25px;
+    height: 2px;
+    transform:rotate(90deg);
+    top: -7px;
+    left: -50px;
+  }
+  &-2{
+    width: 30px;
+    height: 2px;
+    left: -37px;
+    top: -19px;
+  }
+  &-3{
+    width: 25px;
+    height: 2px;
+    transform:rotate(90deg);
+    bottom: -7px;
+    right: -50px;
+  }
+  &-4{
+    width: 30px;
+    height: 2px;
+    right: -37px;
+    bottom: -19px;
+  }
 }
 
 .btn-scroll{
@@ -380,6 +416,12 @@ body{
     color: $dark;
     background-color: white;
     padding: 12px 57px;
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+    &:hover{
+      background-color: transparent;
+      border: 3px solid white;
+      color: white;
+    }
   }
 }
 
@@ -476,6 +518,7 @@ body{
 .section-form{
   padding-top: 122px;
   padding-bottom: 130px;
+  box-sizing: border-box;
 }
 
 .form{
@@ -505,7 +548,11 @@ body{
   }
   .btn{
     color: white;
-    border: none;
+    border: 3px solid transparent;
+    transition: 0.5s;
+    &:hover{
+      transform: scale(0.9);
+    }
   }
 }
 
