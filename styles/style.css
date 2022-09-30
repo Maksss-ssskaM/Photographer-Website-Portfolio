@@ -308,7 +308,7 @@ body {
   cursor: pointer;
   position: relative;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   opacity: 0;
   transition: 0.3s;
 }
@@ -590,6 +590,62 @@ footer {
 }
 .social-network__link {
   color: white;
+}
+
+@media (max-width: 940px) {
+  .section-about-me {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .box-about {
+    flex-direction: column;
+  }
+  .box-about-item {
+    flex: none;
+    max-width: 80%;
+  }
+  .box-about-item:first-child {
+    justify-content: end;
+    flex: none;
+    max-width: 33%;
+  }
+  .box-about-item .title-h2 {
+    text-align: center;
+  }
+  .box-about__vertical {
+    left: 280px;
+    transform: rotate(360deg);
+  }
+  .box-about__vertical::after {
+    top: -60px;
+  }
+  .section-services {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .service {
+    grid-template: 1fr 1fr 1fr/1fr 1fr;
+  }
+  .service__icon {
+    margin: 0 auto 30px;
+  }
+  .service .title-h3 {
+    text-align: center;
+  }
+  .section-portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .portfolio {
+    grid-template: repeat(7, 88px)/repeat(2, 1fr);
+  }
+  .section-banner {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section-banner .title-h2 {
+    font-size: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
