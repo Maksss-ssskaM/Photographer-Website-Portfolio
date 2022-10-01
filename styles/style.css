@@ -617,6 +617,7 @@ footer {
   }
   .section-services {
     padding-top: 80px;
+    padding-bottom: 60px;
   }
   .section-portfolio {
     padding-top: 80px;
@@ -625,6 +626,9 @@ footer {
   .section-banner {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .section-banner .title-h2 {
+    font-size: 40px;
   }
   .section-feedback {
     padding-top: 100px;
@@ -658,6 +662,7 @@ footer {
   }
   .box-about-item .title-h2 {
     text-align: center;
+    margin-top: 30px;
   }
   .box-about__vertical {
     left: 300px;
@@ -683,9 +688,6 @@ footer {
   .portfolio-photo3, .portfolio-photo6 {
     display: none;
   }
-  .section-banner .title-h2 {
-    font-size: 40px;
-  }
   .feedback-body {
     font-size: 16px;
   }
@@ -706,9 +708,15 @@ footer {
   .section-about-me {
     padding-top: 80px;
   }
+  .section-about-me .title-h2 {
+    font-size: 35px;
+  }
   .section-portfolio {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .section-banner .title-h2 {
+    font-size: 30px;
   }
   .section-feedback {
     padding-top: 80px;
@@ -720,14 +728,13 @@ footer {
   .title-h1 {
     font-size: 40px;
   }
-  .section-about-me .title-h2 {
-    font-size: 35px;
-    margin-top: 30px;
-  }
   .box-about-item:first-child {
     max-width: 100%;
   }
   .box-about__back {
+    display: none;
+  }
+  .box-about__vertical {
     display: none;
   }
   .service__text {
@@ -736,9 +743,6 @@ footer {
   .portfolio {
     grid-template: repeat(7, 60px)/repeat(2, 1fr);
     gap: 10px;
-  }
-  .section-banner .title-h2 {
-    font-size: 30px;
   }
   .feedback-top {
     flex-direction: column;
@@ -765,6 +769,58 @@ footer {
   }
   .social-network-item:first-child {
     margin-left: 0;
+  }
+}
+@media (max-width: 425px) {
+  .section-about-me {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .section-services {
+    padding-top: 55px;
+    padding-bottom: 20px;
+  }
+  .section-portfolio {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .section-banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-banner .before-title {
+    font-size: 16px;
+  }
+  .section-banner .title-h2 {
+    font-size: 22px;
+  }
+  .section-banner .btn {
+    padding: 10px 47px;
+  }
+  .section-feedback {
+    padding-bottom: 60px;
+  }
+  .section-form {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .title-h1 {
+    font-size: 25px;
+  }
+  .box-about__front {
+    width: 100%;
+  }
+  .service {
+    gap: 3px 25px;
+  }
+  .portfolio {
+    grid-template: repeat(7, 50px)/repeat(2, 1fr);
+  }
+  .feedback-body {
+    padding-left: 0;
+  }
+  .footer {
+    font-size: 12px;
   }
 }
 

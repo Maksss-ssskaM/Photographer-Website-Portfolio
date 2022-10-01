@@ -712,6 +712,7 @@ footer {
 
     &-services {
       padding-top: 80px;
+      padding-bottom: 60px;
     }
 
     &-portfolio {
@@ -722,6 +723,10 @@ footer {
     &-banner {
       padding-top: 70px;
       padding-bottom: 70px;
+
+      .title-h2 {
+        font-size: 40px;
+      }
     }
 
     &-feedback {
@@ -763,6 +768,7 @@ footer {
 
       .title-h2 {
         text-align: center;
+        margin-top: 30px;
       }
     }
 
@@ -798,12 +804,6 @@ footer {
     display: none;
   }
 
-  .section-banner {
-    .title-h2 {
-      font-size: 40px;
-    }
-  }
-
   .feedback {
     &-body {
       font-size: 16px;
@@ -830,11 +830,21 @@ footer {
   .section {
     &-about-me {
       padding-top: 80px;
+
+      .title-h2 {
+        font-size: 35px;
+      }
     }
 
     &-portfolio {
       padding-top: 60px;
       padding-bottom: 60px;
+    }
+
+    &-banner {
+      .title-h2 {
+        font-size: 30px;
+      }
     }
 
     &-feedback {
@@ -851,19 +861,16 @@ footer {
     font-size: 40px;
   }
 
-  .section-about-me {
-    .title-h2 {
-      font-size: 35px;
-      margin-top: 30px;
-    }
-  }
-
   .box-about {
     &-item:first-child {
       max-width: 100%;
     }
 
     &__back {
+      display: none;
+    }
+
+    &__vertical {
       display: none;
     }
   }
@@ -875,12 +882,6 @@ footer {
   .portfolio {
     grid-template: repeat(7, 60px)/repeat(2, 1fr);
     gap: 10px;
-  }
-
-  .section-banner {
-    .title-h2 {
-      font-size: 30px;
-    }
   }
 
   .feedback {
@@ -918,5 +919,75 @@ footer {
     &-item:first-child {
       margin-left: 0;
     }
+  }
+}
+
+@media(max-width: 425px) {
+
+  .section {
+    &-about-me {
+      padding-top: 55px;
+      padding-bottom: 55px;
+    }
+
+    &-services {
+      padding-top: 55px;
+      padding-bottom: 20px;
+    }
+
+    &-portfolio {
+      padding-top: 40px;
+      padding-bottom: 80px;
+    }
+
+    &-banner {
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      .before-title {
+        font-size: 16px;
+      }
+
+      .title-h2 {
+        font-size: 22px;
+      }
+
+      .btn {
+        padding: 10px 47px;
+      }
+    }
+
+    &-feedback {
+      padding-bottom: 60px;
+    }
+
+    &-form {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
+  .title-h1 {
+    font-size: 25px;
+  }
+
+  .box-about__front {
+    width: 100%;
+  }
+
+  .service {
+    gap: 3px 25px;
+  }
+
+  .portfolio {
+    grid-template: repeat(7, 50px)/repeat(2, 1fr);
+  }
+
+  .feedback-body {
+    padding-left: 0;
+  }
+
+  .footer {
+    font-size: 12px;
   }
 }
