@@ -6,56 +6,62 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Photographer portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <section class="main">
-        <header>
-            <div class="header">
-                <div class="logo">
-                    <img src="images/logo.png" alt="Logo">
-                </div>
-                <nav>
-                    <ul class="nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
-                </nav>
+<section class="main">
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
             </div>
-        </header>
-        <div class="wrapper">
-            <div class="main-title">
-                <h1 class="title-h1">I Am <span>Photographer</span></h1>
-                <div class="lines lines-1"></div>
-                <div class="lines lines-2"></div>
-                <div class="lines lines-3"></div>
-                <div class="lines lines-4"></div>
+            <nav class="header-nav">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-burger">
+                <div class="header-burger__lines"></div>
             </div>
         </div>
-        <button class="btn-scroll"><img src="images/scroll.png" alt="Scroll"></button>
-    </section>
-    <section class="section-about-me">
-        <div class="wrapper">
-            <div class="box-about">
-                <div class="box-about-item">
-                    <img class="box-about__back" src="images/laptop.png" alt="Workplace">
-                    <p class="box-about__vertical">Work Place</p>
-                    <img class="box-about__front" src="images/photo.jpg" alt="Photo">
-                </div>
-                <div class="box-about-item">
-                    <h2 class="title-h2">About Me</h2>
-                    <p class="box-about__text">The quick, brown fox jumps over a lazy dog. djs flock by when mtv ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex!</p>
+    </header>
+    <div class="wrapper">
+        <div class="main-title">
+            <h1 class="title-h1">I Am <span>Photographer</span></h1>
+            <div class="lines lines-1"></div>
+            <div class="lines lines-2"></div>
+            <div class="lines lines-3"></div>
+            <div class="lines lines-4"></div>
+        </div>
+    </div>
+    <button class="btn-scroll"><img src="images/scroll.png" alt="Scroll"></button>
+</section>
+<section class="section-about-me">
+    <div class="wrapper">
+        <div class="box-about">
+            <div class="box-about-item">
+                <img class="box-about__back" src="images/laptop.png" alt="Workplace">
+                <p class="box-about__vertical">Work Place</p>
+                <img class="box-about__front" src="images/photo.jpg" alt="Photo">
+            </div>
+            <div class="box-about-item">
+                <h2 class="title-h2">About Me</h2>
+                <p class="box-about__text">The quick, brown fox jumps over a lazy dog. djs flock by when mtv ax quiz
+                    prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for
+                    quick jigs vex!</p>
                 <div class="progress-bar">
                     <div class="progress-bar-line progress-bar__photoshop"></div>
                     <div class="progress-bar-text">
-                        <p >Adobe Photoshop</p>
+                        <p>Adobe Photoshop</p>
                         <p>100%</p>
                     </div>
                     <div class="progress-bar-line progress-bar__indesign"></div>
@@ -69,218 +75,236 @@
                         <p>80%</p>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
-    </section>
-    <section class="section-services">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">My Services</h2>
-            <p class="after-title text-center">Check out all my services and think what do you want</p>
-            <div class="service">
-                <div class="service-item">
-                    <div class="service__icon service__design"></div>
-                    <h3 class="title-h3">Graphic Design</h3>
-                    <div class="service__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam ornare nisi enim, molestie sodales elit porta non. Morbi et.
-                    </div>
-                    <div class="service__link"><a href="#" title="Read More">Read More</a></div>
+    </div>
+</section>
+<section class="section-services">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">My Services</h2>
+        <p class="after-title text-center">Check out all my services and think what do you want</p>
+        <div class="service">
+            <div class="service-item">
+                <div class="service__icon service__design"></div>
+                <h3 class="title-h3">Graphic Design</h3>
+                <div class="service__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam
+                    ornare nisi enim, molestie sodales elit porta non. Morbi et.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__photo"></div>
-                    <h3 class="title-h3">Photography</h3>
-                    <div class="service__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam ornare nisi enim, molestie sodales elit porta non. Morbi et.
-                    </div>
-                    <div class="service__link"><a href="#">Read More</a></div>
+                <div class="service__link"><a href="#" title="Read More">Read More</a></div>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__photo"></div>
+                <h3 class="title-h3">Photography</h3>
+                <div class="service__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam
+                    ornare nisi enim, molestie sodales elit porta non. Morbi et.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__web"></div>
-                    <h3 class="title-h3">Web Design</h3>
-                    <div class="service__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam ornare nisi enim, molestie sodales elit porta non. Morbi et.
-                    </div>
-                    <div class="service__link"><a href="#">Read More</a></div>
+                <div class="service__link"><a href="#">Read More</a></div>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__web"></div>
+                <h3 class="title-h3">Web Design</h3>
+                <div class="service__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam
+                    ornare nisi enim, molestie sodales elit porta non. Morbi et.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__media"></div>
-                    <h3 class="title-h3">Social Media</h3>
-                    <div class="service__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam ornare nisi enim, molestie sodales elit porta non. Morbi et.
-                    </div>
-                    <div class="service__link"><a href="#">Read More</a></div>
+                <div class="service__link"><a href="#">Read More</a></div>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__media"></div>
+                <h3 class="title-h3">Social Media</h3>
+                <div class="service__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam
+                    ornare nisi enim, molestie sodales elit porta non. Morbi et.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__marketing"></div>
-                    <h3 class="title-h3">Marketing</h3>
-                    <div class="service__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam ornare nisi enim, molestie sodales elit porta non. Morbi et.
-                    </div>
-                    <div class="service__link"><a href="#">Read More</a></div>
+                <div class="service__link"><a href="#">Read More</a></div>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__marketing"></div>
+                <h3 class="title-h3">Marketing</h3>
+                <div class="service__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam
+                    ornare nisi enim, molestie sodales elit porta non. Morbi et.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__app"></div>
-                    <h3 class="title-h3">App Developing</h3>
-                    <div class="service__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam ornare nisi enim, molestie sodales elit porta non. Morbi et.
-                    </div>
-                    <div class="service__link"><a href="#">Read More</a></div>
+                <div class="service__link"><a href="#">Read More</a></div>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__app"></div>
+                <h3 class="title-h3">App Developing</h3>
+                <div class="service__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet interdum dolor. Etiam
+                    ornare nisi enim, molestie sodales elit porta non. Morbi et.
                 </div>
+                <div class="service__link"><a href="#">Read More</a></div>
             </div>
         </div>
-    </section>
-    <section class="section-portfolio">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">My Portfolio</h2>
-            <p class="after-title text-center">Here is all my work that I did for some great people</p>
+    </div>
+</section>
+<section class="section-portfolio">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">My Portfolio</h2>
+        <p class="after-title text-center">Here is all my work that I did for some great people</p>
 
-            <div class="portfolio">
-                <div class="portfolio-item portfolio-photo1">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/photo1.jpg" alt="Photo 1">
-                    </div>
-                    <p class="portfolio-item__back">Ayutthaya City<span>Photo</span></p>
+        <div class="portfolio">
+            <div class="portfolio-item portfolio-photo1">
+                <div class="portfolio-thumb">
+                    <img src="images/portfolio/photo1.jpg" alt="Photo 1">
                 </div>
-                <div class="portfolio-item portfolio-photo2">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/photo2.jpg" alt="Photo 2">
-                    </div>
-                    <p class="portfolio-item__back">Island in the ocean<span>Photo</span></p>
+                <p class="portfolio-item__back">Ayutthaya City<span>Photo</span></p>
+            </div>
+            <div class="portfolio-item portfolio-photo2">
+                <div class="portfolio-thumb">
+                    <img src="images/portfolio/photo2.jpg" alt="Photo 2">
                 </div>
-                <div class="portfolio-item portfolio-photo3">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/photo3.jpg" alt="Photo 3">
-                    </div>
-                    <p class="portfolio-item__back">Modern Architecture<span>Photo</span></p>
+                <p class="portfolio-item__back">Island in the ocean<span>Photo</span></p>
+            </div>
+            <div class="portfolio-item portfolio-photo3">
+                <div class="portfolio-thumb">
+                    <img src="images/portfolio/photo3.jpg" alt="Photo 3">
                 </div>
-                <div class="portfolio-item portfolio-photo4">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/photo4.jpg" alt="Photo 4">
-                    </div>
-                    <p class="portfolio-item__back">Historical Centers<span>Photo</span></p>
+                <p class="portfolio-item__back">Modern Architecture<span>Photo</span></p>
+            </div>
+            <div class="portfolio-item portfolio-photo4">
+                <div class="portfolio-thumb">
+                    <img src="images/portfolio/photo4.jpg" alt="Photo 4">
                 </div>
-                <div class="portfolio-item portfolio-photo5">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/photo5.jpg" alt="Photo 5">
-                    </div>
-                    <p class="portfolio-item__back">Summersville Lake<span>Photo</span></p>
+                <p class="portfolio-item__back">Historical Centers<span>Photo</span></p>
+            </div>
+            <div class="portfolio-item portfolio-photo5">
+                <div class="portfolio-thumb">
+                    <img src="images/portfolio/photo5.jpg" alt="Photo 5">
                 </div>
-                <div class="portfolio-item portfolio-photo6">
-                    <div class="portfolio-thumb">
-                        <img src="images/portfolio/photo6.jpg" alt="Photo 6">
+                <p class="portfolio-item__back">Summersville Lake<span>Photo</span></p>
+            </div>
+            <div class="portfolio-item portfolio-photo6">
+                <div class="portfolio-thumb">
+                    <img src="images/portfolio/photo6.jpg" alt="Photo 6">
+                </div>
+                <p class="portfolio-item__back">Zen<span>Photo</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-banner">
+    <div class="wrapper">
+        <p class="before-title text-center">Do you love my work?</p>
+        <h2 class="title-h2 text-center">Available For Freelance Work!</h2>
+        <a href="#" class="btn">Hire Me</a>
+    </div>
+</section>
+<section class="section-feedback">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">Testimonials</h2>
+        <p class="after-title text-center">Lets find out what people say about me and my work</p>
+        <div class="feedback">
+            <div class="feedback-item">
+                <div class="feedback-top">
+                    <div class="feedback-thumb">
+                        <img src="images/feedback/feedback1.png" alt="Jonathon">
                     </div>
-                    <p class="portfolio-item__back">Zen<span>Photo</span></p>
+                    <div class="feedback-name">
+                        <p class="feedback-name__title">Jonathon Lee</p>
+                        <p class="feedback-name__job">UI/UX Designer</p>
+                    </div>
+                </div>
+                <div class="feedback-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet odio massa.
+                        Nullam vitae dolor molestie, facilisis erat id, auctor nibh. Integer accumsan molestie
+                        fringilla. Suspendisse eget nisi vel risus varius cursus. Ut malesuada, neque sed sagittis.</p>
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-top">
+                    <div class="feedback-thumb">
+                        <img src="images/feedback/feedback2.png" alt="Emalia">
+                    </div>
+                    <div class="feedback-name">
+                        <p class="feedback-name__title">Emalia Clark</p>
+                        <p class="feedback-name__job">Frontend Dev</p>
+                    </div>
+                </div>
+                <div class="feedback-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet odio massa.
+                        Nullam vitae dolor molestie, facilisis erat id, auctor nibh. Integer accumsan molestie
+                        fringilla. Suspendisse eget nisi vel risus varius cursus. Ut malesuada, neque sed sagittis.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-banner">
-        <div class="wrapper">
-            <p class="before-title text-center">Do you love my work?</p>
-            <h2 class="title-h2 text-center">Available For Freelance Work!</h2>
-            <a href="#" class="btn">Hire Me</a>
-        </div>
-    </section>
-    <section class="section-feedback">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">Testimonials</h2>
-            <p class="after-title text-center">Lets find out what people say about me and my work</p>
-            <div class="feedback">
-                <div class="feedback-item">
-                    <div class="feedback-top">
-                        <div class="feedback-thumb">
-                            <img src="images/feedback/feedback1.png" alt="Jonathon">
-                        </div>
-                        <div class="feedback-name">
-                            <p class="feedback-name__title">Jonathon Lee</p>
-                            <p class="feedback-name__job">UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class="feedback-body">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet odio massa. Nullam vitae dolor molestie, facilisis erat id, auctor nibh. Integer accumsan molestie fringilla. Suspendisse eget nisi vel risus varius cursus. Ut malesuada, neque sed sagittis.</p>
-                    </div>
-                </div>
-                <div class="feedback-item">
-                    <div class="feedback-top">
-                        <div class="feedback-thumb">
-                            <img src="images/feedback/feedback2.png" alt="Emalia">
-                        </div>
-                        <div class="feedback-name">
-                            <p class="feedback-name__title">Emalia Clark</p>
-                            <p class="feedback-name__job">Frontend Dev</p>
-                        </div>
-                    </div>
-                    <div class="feedback-body">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet odio massa. Nullam vitae dolor molestie, facilisis erat id, auctor nibh. Integer accumsan molestie fringilla. Suspendisse eget nisi vel risus varius cursus. Ut malesuada, neque sed sagittis.</p>
-                    </div>
-                </div>
+    </div>
+</section>
+<section class="section-advantages">
+    <div class="wrapper">
+        <div class="advantages">
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-1"></div>
+                <p class="advantages__title">
+                    <span>1325</span>
+                    Happy Customers
+                </p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-2"></div>
+                <p class="advantages__title">
+                    <span>1214</span>
+                    Completed Projects
+                </p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-3"></div>
+                <p class="advantages__title">
+                    <span>10</span>
+                    Years Of Experience
+                </p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-4"></div>
+                <p class="advantages__title">
+                    <span>375</span>
+                    Won Awards
+                </p>
             </div>
         </div>
-    </section>
-    <section class="section-advantages">
-        <div class="wrapper">
-            <div class="advantages">
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-1"></div>
-                    <p class="advantages__title">
-                        <span>1325</span>
-                        Happy Customers
-                    </p>
-                </div>
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-2"></div>
-                    <p class="advantages__title">
-                        <span>1214</span>
-                        Completed Projects
-                    </p>
-                </div>
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-3"></div>
-                    <p class="advantages__title">
-                        <span>10</span>
-                        Years Of Experience
-                    </p>
-                </div>
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-4"></div>
-                    <p class="advantages__title">
-                        <span>375</span>
-                        Won Awards
-                    </p>
-                </div>
-            </div>
+    </div>
+</section>
+<section class="section-form">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">Get in Touch</h2>
+        <p class="after-title text-center">Have you any quistion? Send me message without hesitated</p>
+        <form class="form" action="">
+            <input class="form__input" type="text" placeholder="Your Full Name">
+            <input class="form__input" type="email" placeholder="Email Address">
+            <textarea class="form__textarea" name="" placeholder="Your Message"></textarea>
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="wrapper">
+        <div class="footer">
+            <span>&copy; Copyright 2020 iGlyphic. All rights reserved</span>
+            <ul class="social-network">
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-facebook"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-twitter"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-instagram"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-youtube-play"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-github"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-dribbble"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-google"></i></a></li>
+                <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i
+                        class="zmdi zmdi-tumblr"></i></a></li>
+            </ul>
         </div>
-    </section>
-    <section class="section-form">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">Get in Touch</h2>
-            <p class="after-title text-center">Have you any quistion? Send me message without hesitated</p>
-            <form class="form" action="">
-                <input class="form__input" type="text" placeholder="Your Full Name">
-                <input class="form__input" type="email" placeholder="Email Address">
-                <textarea class="form__textarea" name="" placeholder="Your Message"></textarea>
-                <button class="btn" type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-    <footer>
-        <div class="wrapper">
-            <div class="footer">
-                <span>&copy; Copyright 2020 iGlyphic. All rights reserved</span>
-                <ul class="social-network">
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-instagram"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-youtube-play"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-dribbble"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-google"></i></a></li>
-                    <li class="social-network-item"><a class="social-network__link" href="#" target="_blank"><i class="zmdi zmdi-tumblr"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
