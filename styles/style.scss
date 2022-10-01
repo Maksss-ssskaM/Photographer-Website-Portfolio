@@ -176,6 +176,7 @@ body {
   &::before {
     content: '(Not active)';
     display: block;
+    color: $dark;
     font-weight: 500;
     right: -85px;
     top: 13px;
@@ -758,7 +759,7 @@ footer {
 
     &-item {
       flex: none;
-      max-width: 80%;
+      max-width: 90%;
 
       &:first-child {
         justify-content: end;

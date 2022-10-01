@@ -159,6 +159,7 @@ body {
 .btn-scroll::before {
   content: "(Not active)";
   display: block;
+  color: #22222b;
   font-weight: 500;
   right: -85px;
   top: 13px;
@@ -653,7 +654,7 @@ footer {
   }
   .box-about-item {
     flex: none;
-    max-width: 80%;
+    max-width: 90%;
   }
   .box-about-item:first-child {
     justify-content: end;
